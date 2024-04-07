@@ -1,8 +1,13 @@
+# 
+# Description: 
+# This script queries the sandbox table in the Oracle database and displays the result in a table.
+#
 import pandas as pd
 import yaml
 
 from ConnectDb import OracleDB
 
+# Main function
 print("Start")
 
 # Load database connection info from YAML file
@@ -19,10 +24,14 @@ connection = db.getConnection()
 query = "SELECT * FROM sandbox.sandbox"
 # print(query)
 
+# Read the result into a DataFrame
 df = pd.read_sql(query, con=connection)
-
+ 
 # Display the result in a table
 print(df)
 
 # Close the connection
 db.disconnect()
+
+print("End")
+# End of file
