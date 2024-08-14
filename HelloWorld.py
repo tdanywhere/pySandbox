@@ -9,5 +9,5 @@ def quadrieren(pi_zahl):
 quadrieren(9)
 
 tupel = ('wert1', 'wert2', 'wert3', 'wert4', 'wert5')
-print(tupel[2:4])
+print(tupel[2:5])
 
