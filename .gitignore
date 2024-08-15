@@ -1,7 +1,3 @@
-venv/*.*
-.vs/slnx.sqlite
-.vs/pySandbox/FileContentIndex/c93197a5-abc9-4374-a3b8-129360419285.vsidx
-.vs/pySandbox/FileContentIndex/fa7890a6-668d-4eaf-91a1-0e3e5f76b8c2.vsidx
-.vs/pySandbox/v17/.wsuo
-.vs/pySandbox/v17/DocumentLayout.json
+venv/
+.vs/
 __pycache__/ConnectDb.cpython-39.pyc
