@@ -1,0 +1,3 @@
+user: sandbox
+password: sandbox
+dsn: localhost:1521/xepdb1
