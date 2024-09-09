@@ -1,0 +1,4 @@
+chosen_sql: 2
+sql: 
+  1: SELECT * FROM sandbox.sandbox
+  2: select * from sys.all_objects where owner = 'SANDBOX'
